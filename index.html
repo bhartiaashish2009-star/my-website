@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Kush ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<audio id="bgMusic" loop>
+    <source src="music/piano.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn">🎵 Play Music</button>
+<div class="stars"></div>
+<div class="shooting-star"></div>
+<div class="shooting-star star2"></div>
+<div class="shooting-star star3"></div>
+<!-- Loading Screen -->
+<div id="loader">
+    <h1>Loading Memories...</h1>
+
+    <div class="progress">
+        <div class="progress-bar"></div>
+    </div>
+
+   <p id="loadingText">Loading... 0%</p>
+</div>
+
+<!-- Intro -->
+<section id="intro" class="hidden">
+
+    <div class="intro-box">
+
+        <div class="icon">🎧</div>
+
+        <h2>Wear Your Earphones</h2>
+
+        <p class="intro-text">
+            This experience was designed with music,
+            emotions and memories.
+            <br><br>
+            Take a deep breath...
+            and enjoy every moment.
+        </p>
+
+        <button id="continueBtn">
+            Begin the Journey ❤️
+        </button>
+
+    </div>
+
+</section>
+<section id="unlock" class="hidden">
+
+    <h1>🔓 Unlocking Memories...</h1>
+
+    <div class="progress">
+        <div class="progress-bar" id="unlockBar"></div>
+    </div>
+
+    <p id="unlockText">
+        Searching...
+    </p>
+
+</section>
+<!-- Story -->
+<section id="story" class="hidden">
+
+<h1 id="typing"></h1>
+
+<p class="quote">
+Some people enter our lives...
+<br><br>
+Some leave memories...
+<br><br>
+Only a few become family.
+</p>
+
+<button id="nextBtn">
+Next →
+</button>
+
+</section>
+
+<!-- Memory Timeline -->
+<section id="timeline" class="hidden">
+
+<h1>💙 12 Years of an Incredible Journey 💙</h1>
+
+
+
+<div class="card">
+🏫 Kindergarten
+<p>We met as little kids...
+without knowing that one day,
+this friendship would become
+one of life's greatest gifts.</p>
+</div>
+
+<div class="card">
+🏀 Basketball
+<p>Every game wasn't about winning.
+
+It was about laughing,
+competing,
+and creating memories
+we'll never forget.</p>
+</div>
+
+<div class="card">
+📚 School Life
+<p>From classrooms to corridors...
+
+From silly jokes to unforgettable moments...
+
+School gave us lessons,
+but friendship gave us memories.</p>
+</div>
+
+<div class="card">
+🌍 Distance
+<p>Different cities.
+Different routines.
+
+But some bonds never weaken.
+
+Distance changed everything...
+except our friendship.</p>
+</div>
+
+<button id="finalBtn">
+Continue →
+</button>
+
+</section>
+
+<!-- Final -->
+<section id="final" class="hidden">
+
+<h1>Happy Friendship Day 💙</h1>
+
+<h2>Friends by Chance.<br>Brothers by Choice.</h2>
+
+<p>
+Thank you for staying with me
+through every phase of life.
+</p>
+
+<h3>— Aashish ❤️</h3>
+<p id="endingMessage"></p>
+
+<h3 id="theEnd">✨ The End ✨</h3>
+<button id="replayBtn">🔄 Relive the Journey</button>
+<p id="signature">
+    Made with 💙 by Aashish
+</p>
+</section>
+<div id="hearts"></div>
+<script src="script.js"></script>
+
+</body>
+</html>
